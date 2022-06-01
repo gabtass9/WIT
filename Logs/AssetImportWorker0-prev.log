@@ -15,7 +15,7 @@ C:/Users/Huawei/Desktop/WhateverItTakes/WIT
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53860
+54949
 Successfully changed project path to: C:/Users/Huawei/Desktop/WhateverItTakes/WIT
 C:/Users/Huawei/Desktop/WhateverItTakes/WIT
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Huawei/Desktop/WhateverItTakes/WIT
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 116.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010839 seconds.
+Registered in 0.006082 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  0.928 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1066ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (660ms)
-			LoadAssemblies (165ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (393ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
+				RefreshPlugins (114ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007080 seconds.
+Registered in 0.006686 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Huawei\Desktop\WhateverItTakes\WIT\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Huawei\Desktop\WhateverItTakes\WIT\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.494 seconds
+- Completed reload, in  1.426 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1495ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (1427ms)
+		BeginReloadAssembly (164ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1176ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (1099ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
+			SetupTypeCache (351ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (554ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (523ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (371ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -140,12 +140,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (57.4 KB). Loaded Objects now: 3828.
 Memory consumption went from 116.9 MB to 116.8 MB.
-Total: 5.165200 ms (FindLiveObjects: 0.497000 ms CreateObjectMapping: 0.492800 ms MarkObjects: 3.993700 ms  DeleteObjects: 0.179500 ms)
+Total: 4.895700 ms (FindLiveObjects: 0.437000 ms CreateObjectMapping: 0.159400 ms MarkObjects: 4.147500 ms  DeleteObjects: 0.150100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,7 +160,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20069.133194 seconds.
-  path: Assets/Materials/flag/san marino.mat
-  artifactKey: Guid(92c8d46d05dca934cbf2b9970e6a7baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/flag/san marino.mat using Guid(92c8d46d05dca934cbf2b9970e6a7baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2ccd28407d9ab48b2854d47909a0db') in 0.222017 seconds 
+  Time since last request: 22514.394305 seconds.
+  path: Assets/Character/Material/Eyelashmat.mat
+  artifactKey: Guid(360f65fde081adc47b3268f6a3e585df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Material/Eyelashmat.mat using Guid(360f65fde081adc47b3268f6a3e585df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e2fcbe7a580d45d34b262dd456afeb') in 0.232085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Character/Material/Bottommat.mat
+  artifactKey: Guid(7ba8ffc0d56c4a943895e642c6765419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Material/Bottommat.mat using Guid(7ba8ffc0d56c4a943895e642c6765419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8869f13637c197d58f16b56e8ec97bc') in 0.046802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.224709 seconds.
+  path: Assets/Img/flag/New Material.mat
+  artifactKey: Guid(1963d9557a0d9224a9a1989d384fe004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/flag/New Material.mat using Guid(1963d9557a0d9224a9a1989d384fe004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b65b906e1c8c9bd613a19549d5fe91d') in 0.020345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.250306 seconds.
+  path: Assets/Materials/flag/New Material 1.mat
+  artifactKey: Guid(1963d9557a0d9224a9a1989d384fe004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flag/New Material 1.mat using Guid(1963d9557a0d9224a9a1989d384fe004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db6da9200375a273c20518fcaa912f2') in 0.020911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 387.622410 seconds.
+  path: Assets/Img/flag/uganda 1.png
+  artifactKey: Guid(1a74a04c9e6a3e04c81d950022cd5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/flag/uganda 1.png using Guid(1a74a04c9e6a3e04c81d950022cd5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90d52619b39c65972134368c047dba7') in 0.037302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.661480 seconds.
+  path: Assets/Img/flag/sudan.jpg
+  artifactKey: Guid(680c3d7918920574587e30063f5661b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/flag/sudan.jpg using Guid(680c3d7918920574587e30063f5661b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f21b2d6485a7882747a4805afe37756') in 0.021612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.369888 seconds.
+  path: Assets/Img/flag/algeria.png
+  artifactKey: Guid(a30ea73f927680d479ffbea8e0ebdf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/flag/algeria.png using Guid(a30ea73f927680d479ffbea8e0ebdf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4382c3f8bdfaebdddf596072cb72ff32') in 0.019031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.616841 seconds.
+  path: Assets/Materials/flag/New Material 1.mat
+  artifactKey: Guid(1963d9557a0d9224a9a1989d384fe004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flag/New Material 1.mat using Guid(1963d9557a0d9224a9a1989d384fe004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298929ee00850476f2df1de937c9b8a7') in 0.014119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.825206 seconds.
+  path: Assets/Materials/flag/algeria.mat
+  artifactKey: Guid(1963d9557a0d9224a9a1989d384fe004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flag/algeria.mat using Guid(1963d9557a0d9224a9a1989d384fe004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7c3386d7735d98616677bb0bd7c788') in 0.021814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.583886 seconds.
+  path: Assets/Materials/flag/New Material 1.mat
+  artifactKey: Guid(6c6b0f26df478274ead3856143673e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flag/New Material 1.mat using Guid(6c6b0f26df478274ead3856143673e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86631cda25cba7c994e6a22aca3e0c4') in 0.015345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.567054 seconds.
+  path: Assets/Materials/flag/sudan.mat
+  artifactKey: Guid(6c6b0f26df478274ead3856143673e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flag/sudan.mat using Guid(6c6b0f26df478274ead3856143673e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ec231832f9df79f3f4fda5f2aa592d') in 0.018141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.837807 seconds.
+  path: Assets/Tree9
+  artifactKey: Guid(d27b46e81c6125041a03475aa7c4a868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9 using Guid(d27b46e81c6125041a03475aa7c4a868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedf7e662e74c99e42164726466259a9') in 0.008343 seconds 
