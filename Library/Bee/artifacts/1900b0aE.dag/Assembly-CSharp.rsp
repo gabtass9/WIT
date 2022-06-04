@@ -352,6 +352,7 @@
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/OrbitCamera.cs"
 "Assets/Scripts/RelativeMovement.cs"
+"Assets/Scripts/Triangle.cs"
 -langversion:9.0
 
 /deterministic
