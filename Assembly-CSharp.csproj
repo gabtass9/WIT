@@ -38,10 +38,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Scripts\RelativeMovement.cs" />
-     <Compile Include="Assets\Scripts\Movement.cs" />
-     <Compile Include="Assets\Scripts\Triangle.cs" />
-     <Compile Include="Assets\Scripts\WanderingAI.cs" />
      <Compile Include="Assets\Scripts\NPCSpawner.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\WanderingAI.cs" />
+     <Compile Include="Assets\Scripts\Triangle.cs" />
+     <None Include="Assets\Chess Set\readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -737,6 +738,18 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\Carmine\Desktop\Virtual Reality\PROGETTO UFFICIALE ESAME\WIT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>C:\Users\Carmine\Desktop\Virtual Reality\PROGETTO UFFICIALE ESAME\WIT\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>C:\Users\Carmine\Desktop\Virtual Reality\PROGETTO UFFICIALE ESAME\WIT\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>C:\Users\Carmine\Desktop\Virtual Reality\PROGETTO UFFICIALE ESAME\WIT\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>C:\Users\Carmine\Desktop\Virtual Reality\PROGETTO UFFICIALE ESAME\WIT\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
