@@ -368,6 +368,7 @@
 "Assets/Scripts/OrbitCamera.cs"
 "Assets/Scripts/pathfinding.cs"
 "Assets/Scripts/PenDrive.cs"
+"Assets/Scripts/Perri.cs"
 "Assets/Scripts/RelativeMovement.cs"
 "Assets/Scripts/SettingPopup.cs"
 "Assets/Scripts/Triangle.cs"

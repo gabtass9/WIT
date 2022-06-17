@@ -4,33 +4,23 @@ using UnityEngine;
 
 public class pathfinding : MonoBehaviour
 {
-    public Transform[] points;
   
     private UnityEngine.AI.NavMeshAgent nav;
     private int destPoint;
     private float speed;
     public Animator _animator;
-    public GameObject character;
     public Transform target;
+    [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private Transform[] projectileArray;
+
     // Start is called before the first frame update
     void Start()
     {
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        character=GetComponent<GameObject>();
         _animator.SetFloat("Speed", 0.2f);
     }
 
     // Update is called once per frame
-    void GoToNextPoint()
-    {
-  	if (points.Length == 0)
-  	{
-  		return;
-  	}
-  	nav.destination = points[destPoint].position;
-    nav.destination = target.position;
-  	destPoint = (destPoint + 1) % points.Length;
-  }
   
     void Update()
     {
@@ -39,6 +29,7 @@ public class pathfinding : MonoBehaviour
         {
             nav.SetDestination(target.position);
             _animator.SetFloat("Speed", 0.2f);
+            _animator.SetBool("IsAttacking",false);
         }
         else
         {
@@ -51,7 +42,10 @@ public class pathfinding : MonoBehaviour
                 GameObject hitObject = hit.transform.gameObject;
                 if(hit.collider.tag == "Player")
                 {
+
                     Debug.Log("LA PERRI TI PICCHIA UN SACCO");
+                    _animator.SetBool("IsAttacking",true);
+                    
                     //ELIMINARE COMMENTO 
                     //METTERE QUI LA COSA CHE LA PERRI TIPO TI MENA
                     //ADESSO ASPETTO CHE TORNA GABRIELE PER CENARE
@@ -66,7 +60,5 @@ public class pathfinding : MonoBehaviour
                 }
             }
         }
-        if (!nav.pathPending && nav.remainingDistance < 2.0f)
-  	        GoToNextPoint();
     }
 }

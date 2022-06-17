@@ -137,9 +137,7 @@ public class CharacterMovement : MonoBehaviour
     }
 
     IEnumerator wait(){
-    	Debug.Log("PENNETTE FINITE");
     	yield return new WaitForSeconds(10);
-    	Debug.Log("PENNETTE RICARICATE");
     	instatiateblePenDrives = 10;
     }
 
