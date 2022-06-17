@@ -38,7 +38,7 @@ public class CharacterMovement : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-        Debug.Log("Pennette disponibili --> " + instatiateblePenDrives);
+       // Debug.Log("Pennette disponibili --> " + instatiateblePenDrives);
 
         if(controller.isGrounded){
         	verticalVelocity = -gravity * Time.deltaTime;
@@ -59,22 +59,18 @@ public class CharacterMovement : MonoBehaviour
         }
 
         if(Input.GetKey(KeyCode.Mouse0)){
-        		Debug.Log("ATTACK");
         		if(ShortAttack()){
 					string attack = attacks[Random.Range(0, 2)];
         			_animator.SetBool(attack, true);
-        			Debug.Log("SHORT ATTACK");
         		}
         		else if(longHit()){
         			LongAttack();
         			_animator.SetBool("longRange", true);
-        			Debug.Log("LONG ATTACK");
         		}
         		
         }
         else{
         		if(_animator.GetBool(attacks[0])){
-	        		Debug.Log(attack);
 	        		_animator.SetBool(attacks[0], false);
         		}
         		else if(_animator.GetBool(attacks[1])){
@@ -99,7 +95,6 @@ public class CharacterMovement : MonoBehaviour
     	RaycastHit hit;
     	bool hitted = false;
     	if(Physics.Raycast(GameObject.FindWithTag("Player").transform.position + controller.center , transform.forward, out hit, shortRange)){
-    		Debug.Log(hit.transform.name);
     		Hitable target = hit.transform.GetComponent<Hitable>();
     		if(target != null){
     			target.takeDamage(_punchDamage);
@@ -118,7 +113,6 @@ public class CharacterMovement : MonoBehaviour
     	RaycastHit hit;
     	
     	if(Physics.Raycast(GameObject.FindWithTag("Player").transform.position + controller.center , controller.transform.forward, out hit, longRange)){
-    		Debug.Log(hit.transform.name);
     		Hitable target = hit.transform.GetComponent<Hitable>();
     		if(target != null && instatiateblePenDrives > 0){
     			Instantiate(pendrivePrefab);

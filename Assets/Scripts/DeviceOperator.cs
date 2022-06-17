@@ -22,7 +22,6 @@ public class DeviceOperator : MonoBehaviour
                 Vector3 direction = hitCollider.transform.position - transform.position;
                 if(Vector3.Dot(transform.forward, direction) > .5f)
                 {
-                    Debug.Log(hitCollider);
                     hitCollider.SendMessage("Operate", SendMessageOptions.DontRequireReceiver); 
                     //garantisce che operate sia mandato a tutti anche senza che essi abbiano operate
                 }

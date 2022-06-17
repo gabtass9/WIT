@@ -17,7 +17,6 @@ public class DoorOperationReturn: MonoBehaviour
     }
    public void Operate()
     {
-        Debug.Log("STAMM VULANN");
         SceneManager.LoadScene("SampleScene");
         //CAMBIARE SCENA
     }

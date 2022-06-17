@@ -16,7 +16,6 @@ public class DoorOperation: MonoBehaviour
     }
     public void Operate()
     {
-        Debug.Log("STAMM VULANN");
         SceneManager.LoadScene("ArenaCubo");
         //CAMBIARE SCENA
     }

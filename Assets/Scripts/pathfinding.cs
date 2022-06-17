@@ -10,8 +10,8 @@ public class pathfinding : MonoBehaviour
     private float speed;
     public Animator _animator;
     public Transform target;
-    [SerializeField] private GameObject projectilePrefab;
-    [SerializeField] private Transform[] projectileArray;
+    [SerializeField] private GameObject fireballPrefab;
+    private GameObject _fireball;
 
     // Start is called before the first frame update
     void Start()
@@ -40,23 +40,16 @@ public class pathfinding : MonoBehaviour
             if(Physics.SphereCast(ray,0.75f,out hit))
             {
                 GameObject hitObject = hit.transform.gameObject;
-                if(hit.collider.tag == "Player")
+                if(hitObject.GetComponent<PlayerCharacter>())
                 {
-
-                    Debug.Log("LA PERRI TI PICCHIA UN SACCO");
                     _animator.SetBool("IsAttacking",true);
-                    
-                    //ELIMINARE COMMENTO 
-                    //METTERE QUI LA COSA CHE LA PERRI TIPO TI MENA
-                    //ADESSO ASPETTO CHE TORNA GABRIELE PER CENARE
-                    //PERCHE' HO VERAMENTE FAME SE NON TORNA LO MENO
-
-                    //CAZZATE A PARTE
-                    /* COSE DA FARE
-                        IMPOSTARE ANIMAZIONE DELL' ATTACCO DELLA PERRI
-                        ISTANZIARE I PROIETTILI DELLA PERRI
-                        VEDERE SE COLPISCE O NO
-                    */
+                     if(_fireball == null)
+                    {
+                        _fireball = Instantiate(fireballPrefab) as GameObject;
+                        //_fireball.transform.position = transform.TransformPoint(Vector3.forward * 1.5f);
+                        _fireball.transform.position = transform.position+new Vector3(0,2.0f,1.5f);
+                        _fireball.transform.rotation = transform.rotation;
+                    }
                 }
             }
         }
