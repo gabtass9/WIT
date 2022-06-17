@@ -2400,7 +2400,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940261682}
-  m_LocalRotation: {x: 0.117014244, y: -0.000000017100048, z: 0.0000000020119832, w: 0.99313027}
+  m_LocalRotation: {x: 0.117014244, y: -0.000000017100044, z: 0.00000000201196, w: 0.99313027}
   m_LocalPosition: {x: 2769.6003, y: 78.9, z: -28.60679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2681,11 +2681,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327047192356520361, guid: 8a019ef7b945215448c7229a214e439e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000008560947
+      value: 0.000000008560945
       objectReference: {fileID: 0}
     - target: {fileID: 2327047192356520361, guid: 8a019ef7b945215448c7229a214e439e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 8.5152807e-10
+      value: -8.515279e-10
       objectReference: {fileID: 0}
     - target: {fileID: 2327047192356520362, guid: 8a019ef7b945215448c7229a214e439e, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
@@ -4012,11 +4012,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 411f5295934dd1c4eb5916e3c649f0a7, type: 3}
---- !u!4 &1611072519 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2327047192259252849, guid: 8a019ef7b945215448c7229a214e439e, type: 3}
-  m_PrefabInstance: {fileID: 957928254}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1655776403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013856553714, guid: 8c44c8a6238ea0148bc07d2371dedc74, type: 3}
@@ -5079,7 +5074,7 @@ PrefabInstance:
     - target: {fileID: 2616746888708538092, guid: 24869167a73153a4dbdd1b165a567a2a, type: 3}
       propertyPath: camera
       value: 
-      objectReference: {fileID: 1611072519}
+      objectReference: {fileID: 940261685}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24869167a73153a4dbdd1b165a567a2a, type: 3}
 --- !u!4 &1891094746 stripped
