@@ -20,7 +20,6 @@ public class pathfinding : MonoBehaviour
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
         _animator.SetFloat("Speed", 1.0f);
         _animator.SetBool("IsAttacking",false);
-        counter = 0;
     }
 
     // Update is called once per frame
@@ -38,6 +37,7 @@ public class pathfinding : MonoBehaviour
         {
             nav.SetDestination(transform.position);
             _animator.SetFloat("Speed", 0.0f);
+            _animator.SetBool("IsAttacking",false);
             Vector3 lookVector = target.position - transform.position;                   //***********************************************************************
             Quaternion rot = Quaternion.LookRotation(lookVector);                    //Con questo codice il boss se si ferma mi guarda sempre, tiene lo sguardo fisso su di me
             transform.rotation = Quaternion.Slerp(transform.rotation, rot, 1);      //************************************************************************
@@ -46,23 +46,28 @@ public class pathfinding : MonoBehaviour
             if(Physics.SphereCast(ray,0.75f,out hit))
             {
                 GameObject hitObject = hit.transform.gameObject;
-                if(hitObject.GetComponent<PlayerCharacter>() && counter % 360 == 0) //VA SETTATO BENE QUESTO NUMERO
+                if(hitObject.GetComponent<PlayerCharacter>()) //VA SETTATO BENE QUESTO NUMERO
                 {
                     
                     /*
-                        L' ANIMAZIONE NON VIENE FATTA
+                        SICCOME L' ANIMAZIONE SI RIPETE SE LA FIREBALL NON E' NULLA 
+                        BISOGNA GESTIRE I TEMPI DI VOLO MASSIMI DELLA FIREBALL
+                        AD ESEMPIO SE LA FIREBALL VOLA PER PIù DI 10 UNITA'(CHE E' LA DISTANZA DA CUI SPARA LA PERRI)
+                        SI DOVREBBE DISTRUGGERE
                     */
-                     if(_fireball == null)
+                    if(_fireball == null && !this._animator.GetCurrentAnimatorStateInfo(0).IsName("Throwing"))
                     {
                         _animator.SetBool("IsAttacking",true);
                         _fireball = Instantiate(fireballPrefab) as GameObject;
                         _fireball.transform.position = transform.position+new Vector3(0,2.0f,1.5f);
                         _fireball.transform.rotation = transform.rotation;
-                        Debug.Log("COUNTER: "+counter);
-                        
+                    }
+                    if(this._animator.GetCurrentAnimatorStateInfo(0).IsName("Throwing") && this._animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
+                    {
+                        _animator.SetBool("IsAttacking",false);
+
                     }
                 }
-                counter++;
             }
         }
     }
