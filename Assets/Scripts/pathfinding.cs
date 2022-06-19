@@ -7,6 +7,7 @@ public class pathfinding : MonoBehaviour
   
     private UnityEngine.AI.NavMeshAgent nav;
     private int destPoint;
+    private int counter;
     private float speed;
     public Animator _animator;
     public Transform target;
@@ -19,6 +20,7 @@ public class pathfinding : MonoBehaviour
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
         _animator.SetFloat("Speed", 1.0f);
         _animator.SetBool("IsAttacking",false);
+        counter = 0;
     }
 
     // Update is called once per frame
@@ -44,20 +46,23 @@ public class pathfinding : MonoBehaviour
             if(Physics.SphereCast(ray,0.75f,out hit))
             {
                 GameObject hitObject = hit.transform.gameObject;
-                if(hitObject.GetComponent<PlayerCharacter>())
+                if(hitObject.GetComponent<PlayerCharacter>() && counter % 360 == 0) //VA SETTATO BENE QUESTO NUMERO
                 {
-                    _animator.SetBool("IsAttacking",true);
+                    
                     /*
                         L' ANIMAZIONE NON VIENE FATTA
                     */
                      if(_fireball == null)
                     {
+                        _animator.SetBool("IsAttacking",true);
                         _fireball = Instantiate(fireballPrefab) as GameObject;
                         _fireball.transform.position = transform.position+new Vector3(0,2.0f,1.5f);
                         _fireball.transform.rotation = transform.rotation;
+                        Debug.Log("COUNTER: "+counter);
                         
                     }
                 }
+                counter++;
             }
         }
     }
