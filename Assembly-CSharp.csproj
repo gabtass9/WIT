@@ -44,6 +44,7 @@
      <Compile Include="Assets\Scripts\Perri.cs" />
      <Compile Include="Assets\Scripts\Fireball.cs" />
      <Compile Include="Assets\Scripts\GameEvent.cs" />
+     <Compile Include="Assets\Scripts\mainMenu.cs" />
      <Compile Include="Assets\Scripts\NPCSpawner.cs" />
      <Compile Include="Assets\Scripts\PenDrive.cs" />
      <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
