@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-
 	public CharacterController controller;
 	public Transform camera;
 
@@ -27,7 +26,6 @@ public class CharacterMovement : MonoBehaviour
     public int instatiateblePenDrives = 10;
 
     public GameObject pendrivePrefab;
-
 
     
 
@@ -80,7 +78,8 @@ public class CharacterMovement : MonoBehaviour
         		}
         }
 		Vector3 moveDirection = Vector3.zero;
-        if(direction.magnitude >= 0.1){
+        if(direction.magnitude >= 0.1f)
+		{
         	float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + camera.eulerAngles.y;
         	float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnVelocity, turningTime);
         	transform.rotation = Quaternion.Euler(0f, angle, 0f);
@@ -89,6 +88,8 @@ public class CharacterMovement : MonoBehaviour
         _animator.SetFloat("speed", direction.magnitude);
         moveDirection.y = verticalVelocity;
         controller.Move(moveDirection.normalized * _speed * Time.deltaTime);
+		
+
     }
 
     bool ShortAttack(){
