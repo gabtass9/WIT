@@ -18,7 +18,7 @@ public class CharacterMovement : MonoBehaviour
 	private float gravity = 10.0f; 
 
 	private float _punchDamage = 10.0f; 
-	private float shortRange = 1.0f;
+	private float shortRange = 2.0f;
 	private float longRange = 200.0f;
 	private string[] attacks = {"punch", "kick"};
 	private string attack;
@@ -97,6 +97,7 @@ public class CharacterMovement : MonoBehaviour
     	bool hitted = false;
     	if(Physics.Raycast(GameObject.FindWithTag("Player").transform.position + controller.center , transform.forward, out hit, shortRange)){
     		Hitable target = hit.transform.GetComponent<Hitable>();
+			Debug.Log("SHORT ATTACK");
     		if(target != null){
     			target.takeDamage(_punchDamage);
     			hitted = true;
@@ -115,6 +116,7 @@ public class CharacterMovement : MonoBehaviour
     	
     	if(Physics.Raycast(GameObject.FindWithTag("Player").transform.position + controller.center , controller.transform.forward, out hit, longRange)){
     		Hitable target = hit.transform.GetComponent<Hitable>();
+			Debug.Log("LONG ATTACK");
     		if(target != null && instatiateblePenDrives > 0){
     			Instantiate(pendrivePrefab);
     			target.takeDamage(_punchDamage);
@@ -132,7 +134,7 @@ public class CharacterMovement : MonoBehaviour
     }
 
     IEnumerator wait(){
-    	yield return new WaitForSeconds(10);
+    	yield return new WaitForSeconds(3);
     	instatiateblePenDrives = 10;
     }
 
