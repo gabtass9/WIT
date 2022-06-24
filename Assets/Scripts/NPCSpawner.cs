@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class NPCSpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject npcPrefab;
+    [SerializeField] private GameObject[] npcPrefab;
     private GameObject[] _npcs;
     public int npc_count;
+    private int z;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +24,8 @@ public class NPCSpawner : MonoBehaviour
         }*/
         for (int i =0;i<npc_count;i++)
         {
-            GameObject g=Instantiate(npcPrefab) as GameObject;
+            z=Random.Range(0,npcPrefab.Length);
+            GameObject g=Instantiate(npcPrefab[z]) as GameObject;
             Vector3 position=new Vector3(Random.Range(0,2700),32.209f,Random.Range(-6,5));
             g.transform.position=position;
         }

@@ -31,6 +31,6 @@ public class pathfindingEnemy : MonoBehaviour
   		return;
   	}
   	nav.destination = points[destPoint].position;
-  	destPoint = (destPoint + 1) % points.Length;
+  	destPoint = Random.Range(0,points.Length);
   }
 }

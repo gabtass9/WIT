@@ -376,6 +376,7 @@
 "Assets/Scripts/mainMenu.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/NPCSpawner.cs"
+"Assets/Scripts/NPCSpawnercOPERTO.cs"
 "Assets/Scripts/operatorMensa.cs"
 "Assets/Scripts/OrbitCamera.cs"
 "Assets/Scripts/pathfinding.cs"
