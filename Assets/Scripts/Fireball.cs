@@ -5,7 +5,7 @@ using UnityEngine;
 public class Fireball : MonoBehaviour
 {
     public float speed = 10.0f;
-    public int damage = 1;
+    public int damage = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,7 @@ public class Fireball : MonoBehaviour
         PlayerCharacter player = other.GetComponent<PlayerCharacter>();
         if(player != null)
         {
-            Debug.Log("Player HIt");
+            player.Hurt(damage);
         }
         Destroy(this.gameObject);
     }

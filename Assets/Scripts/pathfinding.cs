@@ -46,7 +46,7 @@ public class pathfinding : MonoBehaviour
             if(Physics.SphereCast(ray,0.75f,out hit))
             {
                 GameObject hitObject = hit.transform.gameObject;
-                if(hitObject.GetComponent<PlayerCharacter>()) //VA SETTATO BENE QUESTO NUMERO
+                if(hitObject.GetComponent<PlayerCharacter>()) 
                 {
                     
                     /*
@@ -59,7 +59,7 @@ public class pathfinding : MonoBehaviour
                     {
                         _animator.SetBool("IsAttacking",true);
                         _fireball = Instantiate(fireballPrefab) as GameObject;
-                        _fireball.transform.position = transform.position+new Vector3(0,2.0f,1.5f);
+                        _fireball.transform.position = transform.position+new Vector3(0,3.0f,0.5f);
                         _fireball.transform.rotation = transform.rotation;
                     }
                     if(this._animator.GetCurrentAnimatorStateInfo(0).IsName("Throwing") && this._animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
