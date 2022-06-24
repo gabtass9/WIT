@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCharacter : MonoBehaviour
 {
-    public int health;
+    public float health;
     public int arenaNumber;
     [SerializeField] private Slider healthBar;
     [SerializeField] private Image fillImg;
@@ -17,6 +17,7 @@ public class PlayerCharacter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        health=GameEvent.Health;
         gameOver.enabled = false;
         barValueDamage = healthBar.maxValue / health;
         healthBarBackground = healthBar.GetComponentInChildren <Image> ();
@@ -38,6 +39,8 @@ public class PlayerCharacter : MonoBehaviour
             }
             damaged = false;
         }
+        GameEvent.Health=health;
+
     }
     public void Hurt(int damage) 
     {
@@ -48,6 +51,7 @@ public class PlayerCharacter : MonoBehaviour
     }
     public void Death ()
     {
+
         fillImg.enabled = false;
         gameOver.enabled = true;
         //Time.timeScale = 0; stoppa il gioco

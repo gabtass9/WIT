@@ -16,7 +16,12 @@ public class InteractMensa: MonoBehaviour
     }
     public void Operate()
     {
-        Debug.Log("stai mangiando");
+        if(GameEvent.FrequenzaMensa<4)
+        {
+            GameEvent.FrequenzaMensa++;
+            GameEvent.Health=1.25f*GameEvent.FrequenzaMensa*100;
+        }
+
         //CAMBIARE SCENA
     }
 }

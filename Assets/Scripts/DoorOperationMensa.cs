@@ -16,6 +16,8 @@ public class DoorOperationMensa: MonoBehaviour
     }
     public void Operate()
     {
+         GameEvent.posizione=transform.position;
+        GameEvent.posizione.z=0.0f;
         SceneManager.LoadScene("Mensa");
         //CAMBIARE SCENA
     }

@@ -16,6 +16,7 @@ public class DoorOperationArena3: MonoBehaviour
     }
     public void Operate()
     {
+        GameEvent.posizione=transform.position;
         SceneManager.LoadScene("Arena3");
         //CAMBIARE SCENA
     }

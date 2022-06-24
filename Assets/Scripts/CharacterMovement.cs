@@ -27,7 +27,6 @@ public class CharacterMovement : MonoBehaviour
 
     public GameObject pendrivePrefab;
 
-    
 
     // Update is called once per frame
     void Update()

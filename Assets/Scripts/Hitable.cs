@@ -25,6 +25,11 @@ public class Hitable : MonoBehaviour
 
 	public void takeDamage(float damage)
 	{
+		if(GameEvent.FrequenzaCodingRoom>0)
+		{
+			damage=damage*GameEvent.FrequenzaCodingRoom*1.25f;
+		}
+		Debug.Log(damage);
 		health -= damage;
 		Debug.Log(health);
 		if(health <= 0){

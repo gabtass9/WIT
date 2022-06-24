@@ -16,7 +16,10 @@ public class InteractCodingRoom: MonoBehaviour
     }
     public void Operate()
     {
-        Debug.Log("stai potenziando");
+       if(GameEvent.FrequenzaCodingRoom<4)
+        {
+            GameEvent.FrequenzaCodingRoom++;
+        }
         //CAMBIARE SCENA
     }
 }

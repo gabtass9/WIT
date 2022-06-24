@@ -1,0 +1,624 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1656108712789229, "dur": 18922433, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656108712791233, "dur": 39614, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656108712831076, "dur": 89715, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656108712920828, "dur": 486115, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656108713406946, "dur": 18294747, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656108731701724, "dur": 9938, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109008304982, "dur": 4757702, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109008305728, "dur": 5526, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109008311340, "dur": 59430, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109008370773, "dur": 1046275, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109009417051, "dur": 3643571, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109013060624, "dur": 2059, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109013063699, "dur": 109, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1656109009177502, "dur": 215332, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656109009178843, "dur": 59383, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656109009366117, "dur": 7185, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656109009373310, "dur": 19504, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656109009374605, "dur": 16977, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656109009401283, "dur": 2302, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656109009399878, "dur": 3757, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109013064057, "dur": 460, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1656109009494466, "dur":3878, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109009498358, "dur":613, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1656109009499038, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1656109009499065, "dur":522, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1656109009499629, "dur":1344, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109009500973, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042178, "dur":275, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042453, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042466, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042468, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042482, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042484, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042492, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042494, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042501, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042503, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042511, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042513, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042520, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042522, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042529, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042531, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042542, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042556, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013042574, "dur":4424, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1656109009499777, "dur":1206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109009500987, "dur":12034, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109009513048, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656109009513058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109009517818, "dur":677, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656109009518502, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656109009518609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109009519150, "dur":21016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656109009540171, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1656109009540423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109009540437, "dur":479272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1656109010019800, "dur":40867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010060677, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109010060693, "dur":9328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010070117, "dur":290506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010360632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109010360646, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010362982, "dur":44917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010407903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109010407911, "dur":6241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010414230, "dur":81470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010495708, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109010495723, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010497961, "dur":78492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010576462, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109010576478, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010579068, "dur":67673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010646752, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109010646769, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010651713, "dur":51462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010703183, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109010703196, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010705775, "dur":276736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010982521, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109010982536, "dur":6582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109010989197, "dur":271828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109011261034, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109011261050, "dur":10291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109011271438, "dur":237451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109011508898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109011508910, "dur":8028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109011517056, "dur":490498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109012007564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012007577, "dur":25676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109012033329, "dur":262645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109012295984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012295999, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656109012299273, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1656109012299424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012299437, "dur":4464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1656109012303984, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1656109012304054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012304065, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1656109012307493, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1656109012307618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012307631, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1656109012309947, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1656109012310024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012310035, "dur":31156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1656109012341265, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1656109012341337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012341349, "dur":7734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1656109012349169, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1656109012349256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012349270, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1656109012353593, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1656109012353670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012353683, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1656109012355693, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1656109012355783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656109012355798, "dur":382152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1656109012738090, "dur":304087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109009499836, "dur":1155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109009500991, "dur":12054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109009513048, "dur":16944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656109009530001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109009530060, "dur":5534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656109009535819, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1656109009536124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109009536242, "dur":14694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1656109009551019, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1656109009551277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109009551293, "dur":397960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1656109009949337, "dur":44814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109009994161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109009994175, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109009997362, "dur":230147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010227517, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109010227532, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010229428, "dur":305226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010534664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109010534680, "dur":4121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010538895, "dur":51550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010590454, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109010590468, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010593948, "dur":60089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010654045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109010654093, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010656171, "dur":150635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010806814, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109010806829, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109010810897, "dur":349328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011160234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109011160247, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011163330, "dur":55080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011218419, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109011218434, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011221136, "dur":60972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011282118, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109011282179, "dur":26374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011315086, "dur":325347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011640441, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109011640455, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011643011, "dur":132404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011775423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109011775436, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109011778677, "dur":309093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109012087779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109012087793, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109012090765, "dur":77297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109012168070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109012168082, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109012170029, "dur":669164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109012839202, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656109012839215, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656109012841573, "dur":200623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009499861, "dur":1137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009500999, "dur":12053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009513057, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656109009513582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009531602, "dur":12996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656109009544690, "dur":11363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1656109009556064, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009556085, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1656109009557850, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1656109009558073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009558088, "dur":5704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1656109009563872, "dur":208347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109009772225, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009772318, "dur":39866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109009812258, "dur":107120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109009919388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009919402, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109009922451, "dur":49926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109009972386, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109009972402, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109009975374, "dur":46686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010022066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010022076, "dur":82478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010104685, "dur":151009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010255702, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010255716, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010257658, "dur":33881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010291548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010291561, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010293527, "dur":105970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010399505, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010399521, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010401864, "dur":49499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010451372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010451387, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010454621, "dur":96861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010551491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010551505, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010553880, "dur":96603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010650493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010650508, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010652836, "dur":108541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010761385, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010761399, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010764737, "dur":110331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010875077, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010875116, "dur":6216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010881480, "dur":104769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010986260, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109010986280, "dur":8587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109010995927, "dur":161745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011157681, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109011157741, "dur":22139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011179953, "dur":50356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011230318, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109011230332, "dur":56703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011288276, "dur":121059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011409346, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109011409405, "dur":18143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011427820, "dur":92709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011520539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109011520552, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011523304, "dur":103855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011627167, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109011627183, "dur":3046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011630305, "dur":136687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011767002, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109011767018, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011769434, "dur":72765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011842210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109011845033, "dur":5659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109011850812, "dur":357972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109012208793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109012208808, "dur":5225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109012214109, "dur":143581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109012357700, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109012357717, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656109012359803, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1656109012359880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109012359892, "dur":8803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1656109012369002, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1656109012369117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109012369276, "dur":8905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1656109012378269, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1656109012378358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109012378374, "dur":7397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1656109012386101, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1656109012386181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109012386194, "dur":8724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1656109012395003, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656109012395076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656109012395092, "dur":351501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656109012746674, "dur":295502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009499889, "dur":1117, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009501006, "dur":12034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009513048, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1656109009513341, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009517872, "dur":17795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1656109009535741, "dur":11189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1656109009546939, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009546955, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1656109009548866, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1656109009549103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009549303, "dur":14165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1656109009563548, "dur":90937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109009654494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009656322, "dur":118769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109009775175, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1656109009775403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009775881, "dur":19851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1656109009795831, "dur":37759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109009833598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009833756, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109009835771, "dur":99767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109009935548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109009935563, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109009938403, "dur":399126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010337540, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109010337556, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010340035, "dur":99686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010439729, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109010439743, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010443602, "dur":36933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010480544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109010480558, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010483064, "dur":57172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010540247, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109010540263, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010542667, "dur":46134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010588810, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109010588825, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010590998, "dur":270650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010861657, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109010861671, "dur":6169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109010867909, "dur":307678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109011175595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109011175608, "dur":45389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109011221074, "dur":88575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109011309658, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109011309680, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109011312082, "dur":233256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109011545346, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109011545361, "dur":30031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109011575518, "dur":484923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109012060450, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109012060464, "dur":4141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109012064685, "dur":308363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109012373101, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109012373123, "dur":4168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656109012377372, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1656109012377449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109012377461, "dur":277558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1656109012655232, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1656109012655348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656109012655365, "dur":7343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1656109012662790, "dur":379384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009499918, "dur":1093, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009501011, "dur":12111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009513123, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1656109009513356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009522862, "dur":16577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1656109009539556, "dur":15697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1656109009555262, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009555279, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1656109009557253, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1656109009557492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009557505, "dur":16949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1656109009574544, "dur":200024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1656109009774578, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009774594, "dur":4101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1656109009778781, "dur":36261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109009815051, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009815478, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109009819061, "dur":77328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109009896398, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109009896413, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109009898305, "dur":105821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010004135, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010004149, "dur":9957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010014179, "dur":175279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010189466, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010189486, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010191867, "dur":106908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010298793, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010298824, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010301830, "dur":101327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010403216, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010403236, "dur":7640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010410950, "dur":72897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010483855, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010483869, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010485878, "dur":57277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010543162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010543227, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010547055, "dur":33672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010580735, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010580750, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010582676, "dur":63517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010646201, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010646215, "dur":4788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010651083, "dur":48169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010699262, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010699279, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010701721, "dur":236154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010937884, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109010937899, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109010940435, "dur":522893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109011463336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109011463351, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109011470230, "dur":286044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109011756283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109011756296, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109011759247, "dur":241931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109012001227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012001240, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109012004384, "dur":203388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109012207781, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012207797, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109012210379, "dur":325365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109012535758, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012535800, "dur":4784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656109012540744, "dur":1695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012542454, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012542713, "dur":20799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012563607, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656109012563687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012563704, "dur":4337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656109012568121, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012568328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012568339, "dur":22811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012591236, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1656109012591322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012591337, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1656109012596075, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012596143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012596156, "dur":7200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012603447, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012603515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012603528, "dur":14700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012618324, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012618411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012618424, "dur":8044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012626548, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012626614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012626627, "dur":6562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012633303, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012633391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012633406, "dur":8677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656109012642171, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656109012642260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012642277, "dur":14331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656109012656686, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1656109012656957, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656109012656979, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1656109012659557, "dur":382622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109009499943, "dur":1074, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109009501017, "dur":12037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109009513055, "dur":23639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656109009536702, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109009536732, "dur":3455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656109009540286, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1656109009540468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109009543088, "dur":5750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1656109009548911, "dur":11577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656109009560496, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109009560514, "dur":3550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656109009564131, "dur":347978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109009912116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109009912127, "dur":56804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109009969229, "dur":51746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010020984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109010020999, "dur":44933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010066017, "dur":164623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010230659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109010230679, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010232701, "dur":179720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010412431, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109010412445, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010416811, "dur":118783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010535603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109010535616, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010539154, "dur":45543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010584705, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109010584719, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010587381, "dur":94019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010681410, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109010681427, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010683701, "dur":57487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010741196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109010741209, "dur":4672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010745966, "dur":60875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010806848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109010806858, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109010809003, "dur":264529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109011073542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109011073559, "dur":5317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109011078947, "dur":544007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109011622963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109011622978, "dur":2667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109011625813, "dur":251527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109011877351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109011877366, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109011880586, "dur":59954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109011940548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109011940562, "dur":7083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109011947833, "dur":249078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109012196920, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012196933, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109012200915, "dur":262621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109012463546, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012463562, "dur":7002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656109012470715, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1656109012470840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012470854, "dur":46098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1656109012517033, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1656109012517277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012517291, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1656109012521001, "dur":57435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1656109012578455, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012578484, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1656109012582784, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1656109012583345, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012583370, "dur":4807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1656109012588403, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level5.resS" }}
+,{ "pid":12345, "tid":6, "ts":1656109012588619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012588632, "dur":8644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level5.resS" }}
+,{ "pid":12345, "tid":6, "ts":1656109012597370, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1656109012597465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012597482, "dur":14221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1656109012611797, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1656109012611868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012611880, "dur":6476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1656109012618442, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1656109012618516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012618524, "dur":10489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1656109012629098, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1656109012629179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012629191, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1656109012635529, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1656109012635626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656109012635637, "dur":31883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1656109012667658, "dur":374515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109009499972, "dur":1050, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109009501022, "dur":12015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109009513047, "dur":50506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1656109009563559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109009563960, "dur":10242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1656109009574577, "dur":197608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta.exe" }}
+,{ "pid":12345, "tid":7, "ts":1656109009772194, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109009772207, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta.exe" }}
+,{ "pid":12345, "tid":7, "ts":1656109009775269, "dur":117920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109009893197, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109009893261, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109009896895, "dur":51419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109009948325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109009948340, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109009950226, "dur":71458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010021695, "dur":128, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109010021836, "dur":46808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010068736, "dur":262420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010331165, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109010331179, "dur":3963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010335221, "dur":37148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010372378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109010372391, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010374222, "dur":91895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010466126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109010466141, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010468206, "dur":38475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010506690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109010506704, "dur":6689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010513469, "dur":338829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010852341, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109010852355, "dur":2863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010855287, "dur":131090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109010986383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109010986392, "dur":80516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109011067004, "dur":360670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109011427716, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109011427740, "dur":16022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109011444080, "dur":647872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109012091960, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109012091975, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109012094286, "dur":824879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109012919175, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656109012919188, "dur":8302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656109012927584, "dur":114598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109009500019, "dur":1010, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109009501029, "dur":12029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109009513059, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1656109009513567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109009522861, "dur":418929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1656109009941880, "dur":63887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010005777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109010005792, "dur":44323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010050206, "dur":140726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010190941, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109010190957, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010193093, "dur":123246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010316347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109010316360, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010318414, "dur":89474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010407897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109010407911, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010410331, "dur":35044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010445384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109010445401, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010447434, "dur":100712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010548155, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109010548169, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010550995, "dur":189621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010740625, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109010740638, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010744283, "dur":124432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010868723, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109010868736, "dur":6840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109010875645, "dur":587953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109011463604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109011463614, "dur":4733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109011468428, "dur":88848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109011557285, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109011557301, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109011560106, "dur":157681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109011717796, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109011717810, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109011720031, "dur":87117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109011807157, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109011807173, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109011809148, "dur":400905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109012210095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109012210107, "dur":4928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656109012215103, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1656109012215475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109012225094, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1656109012226883, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1656109012226956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109012227080, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1656109012229274, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1656109012229340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656109012229351, "dur":812738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Huawei/Desktop/WIt/gta_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1656109013042145, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1656109013042149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656109013051012, "dur":3216, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1656109013064602, "dur": 1228, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656109013063507, "dur": 2357, "ph": "X", "name": "Write chrome-trace events", "args": {} },
